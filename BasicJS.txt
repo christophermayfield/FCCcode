@@ -1,0 +1,30 @@
+
+function convertToF(celsius) {
+  var fahrenheit;
+  // Only change code below this line
+  
+  fahrenheit = (celsius * (9/5)) + 32;
+  // Only change code above this line
+  return fahrenheit;
+}
+
+// Change the inputs below to test your code
+convertToF(30);
+
+
+
+//Basic algorithim scripting 
+
+1. Reverse a string
+
+//This challenege you had to take a string and reverse it. 
+
+
+function reverseString(str) {
+  var finStr = str.split('').reverse().join('');
+  
+  return finStr;
+}
+
+reverseString("hello");
+
